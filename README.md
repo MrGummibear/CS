@@ -26,10 +26,10 @@
     <img src="https://github.com/MrGummibear/Nebula-Odyssey/blob/main/Frontend/public/icons/logo_placeholder.png" alt="Logo" width="250" height="300">
   </a>
 
-  <h3 align="center">Nebula Odyssey</h3>
+  <h3 align="center">Eventagentur CS</h3>
 
   <p align="center">
-    Learn everything about Nebula Odyssey!
+    NON STOP MUSIC!
     <br />
   </p>
 </div>
