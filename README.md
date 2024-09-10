@@ -23,7 +23,7 @@
 <br />
 <div align="center">
   <a href="[https://github.com/othneildrew/Best-README-Template](https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur8.png)">
-    <img src="https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur8.png" alt="Logo" width="250" height="300">
+    <img src="https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur8.png" alt="Logo" width="600" height=auto>
   </a>
 
   <h3 align="center">Eventagentur CS</h3>
