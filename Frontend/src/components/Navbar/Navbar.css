@@ -1,0 +1,44 @@
+  #header{
+    display: flex;
+    align-items: center;
+    position: fixed;
+    height: 12%;
+    width: 100vw;
+    background-color: transparent; /* Startet transparent */
+    transition: background-color 0.3s ease; /* Weicher Übergang */
+    z-index: 2;
+  }
+  #header.scrolled{
+    background: rgba(194, 162, 2, 0.52);
+    background: radial-gradient(ellipse at center, rgba(5, 1, 77, 0.8) 0%,rgba(1, 12, 97, 0.8) 100%);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .head-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .head-bar-left, .head-bar-right{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .head-bar-center{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .logo{
+    width: 180px;
+  }
+
+  .head-bar-left a, .head-bar-right a{
+    text-decoration: none;
+    color: var(--textColor);
+    font-weight: bold;
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 10px, #535353 0px 0px 15px;
+  }

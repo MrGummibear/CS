@@ -1,0 +1,191 @@
+.home-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/crowd-1056764_1920.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  
+  .smoke {
+    text-align: center;
+    filter: url('#filter');
+    height: 120px;
+    margin-bottom: 80px;
+  }
+  .lil-gui.autoPlace{
+    display: none;
+  }
+  
+  .text {
+    background: linear-gradient(#fff, #999, #ddd, #888);
+    background-clip: text;
+    font-weight: bolder;
+    filter: blur(5px) contrast(120%);
+    color: var(--textColor);
+    font-size: calc(var(--textSize) * 1rem);
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 10px, #535353 0px 0px 15px, #535353 0px 0px 20px, #535353 0px 0px 30px;
+  }
+  
+  .btn {
+    --background-color: var(--tertiary-color);
+    --border-color: linear-gradient(to bottom right, #454330, var(--secondary-color));
+    --border-width: 0.2em;
+    --edge-size: 0.5em;
+    color: #151515;
+    cursor: pointer;
+    background: var(--background-color);
+    padding: 0.5em 1.5em;
+    border: 0;
+    position: relative;
+    display: inline-grid;
+    place-content: center;
+    font-size: 2rem;
+    clip-path: polygon(
+      var(--edge-size) 0%,
+      100% 0,
+      100% calc(100% - var(--edge-size)),
+      calc(100% - var(--edge-size)) 100%,
+      0 100%,
+      0% var(--edge-size)
+    );
+    transition: color 250ms;
+    width: 190px;
+  }
+  
+  .btn::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--border-color);
+    z-index: -2;
+  } 
+  
+  .btn::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: var(--background-color);
+    z-index: -1;
+    clip-path: polygon(
+      var(--border-width) calc(var(--edge-size) + var(--border-width) * 0.5),
+      calc(var(--edge-size) + var(--border-width) * 0.5) var(--border-width),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width))
+        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
+        calc(100% - var(--border-width)),
+      calc(var(--border-width)) calc(100% - var(--border-width))
+    );
+    transition: clip-path 500ms;
+  }
+  
+  .btn:hover {
+    color: white;
+  }
+  
+  .btn:hover::after {
+    clip-path: polygon(
+      calc(100% - var(--border-width))
+        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width)) var(--border-width),
+      calc(100% - var(--border-width))
+        calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5)),
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
+        calc(100% - var(--border-width)),
+      calc(100% - calc(var(--edge-size) + var(--border-width) * 0.5))
+        calc(100% - var(--border-width))
+    );
+  }
+  
+  .active .btn{
+    --background-color: linear-gradient(to bottom right, #454330, var(--secondary-color));
+    color: white;
+  }
+
+  .home-box{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    padding: 5%;
+  }
+
+  .home-box p{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 45px;
+    width: 60%;
+    color: var(--textColor);
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 10px, #535353 0px 0px 15px;
+  }
+
+  .about-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/wall-2059909_1920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .about-box{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  .about-box p, .about-box h2, .about-box ul{
+    font-weight: bold;
+    color: var(--textColor);
+    text-shadow: #000000 0px 0px 5px, #000000 0px 0px 10px, #535353 0px 0px 15px;
+    margin-bottom: 40px;
+  }
+  .about-box h2{
+    font-size: 3.5rem;
+  }
+  .about-box ul{
+    padding-left: 50px;
+  }
+
+  .imagecarousel-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/wall-2059909_1920.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  h1{
+    font-size: 5rem;
+    margin-bottom: 50px;
+    color: var(--textColor);
+
+  }
+
+  .gallery-logo{
+    display: none;
+    position: absolute;
+    width: 500px;
+    rotate: 20deg;
+    right: 70px;
+    bottom: 450px;
+    overflow: hidden;
+    filter: drop-shadow(10px);
+  }
+
+  .gallery-img{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    overflow: hidden;
+    z-index: 0;
+  }
