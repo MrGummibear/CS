@@ -46,15 +46,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#registration-and-setup">Registration and Setup</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#registration">Registration</a></li>
-        <li><a href="#installation">Installation</a></li>
-        <li><a href="#first-steps">First Steps</a></li>
-      </ul>
-    </li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
@@ -67,7 +58,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur.gif)
+<div align="center">
+  <img src="https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur.gif" alt="Logo">
+</div>
 
 
 
