@@ -67,7 +67,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/CS.gif)
+![](https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/C-S-Eventagentur.gif)
 
 
 
@@ -116,12 +116,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-- Freeman010  (https://github.com/Freeman010)
-- Smush02  (https://github.com/Smush02)
 - MrGummibear  (https://github.com/MrGummibear)
-- Mynchro  (https://github.com/Mynchro)
 
-Project Link: https://github.com/MrGummibear/Nebula-Odyssey.git
+Project Link: https://github.com/MrGummibear/CS.git
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
