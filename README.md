@@ -67,11 +67,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![](https://github.com/MrGummibear/Nebula-Odyssey/blob/main/Frontend/public/Design%20ohne%20Titel.gif)
+![](https://github.com/MrGummibear/CS/blob/main/Frontend/public/img/CS.gif)
 
-Nebula Odyssey is an interactive space exploration game where players can visit planets, gather resources, and interact with other players in a futuristic cosmic environment. The game emphasizes a detailed and visually rich experience, allowing players to explore various celestial bodies and engage in activities such as resource collection and multiplayer interactions. The platform offers a blend of adventure and strategy as players navigate through space, uncovering new areas, and collaborating or competing with others.
 
-Explore more on <a href="https://nebula-odyssey.vercel.app/">Nebula Odyssey</a>
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -86,67 +86,23 @@ Explore more on <a href="https://nebula-odyssey.vercel.app/">Nebula Odyssey</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- REGISTRATION AND SETUP -->
-### Registration and Setup
-To start your journey in Nebula Odyssey, follow these steps:
-
-#### Prerequisites
-Ensure you have a modern web browser like Chrome or Firefox.
-
-#### Registration
-Visit Nebula Odyssey and click on "Sign Up".
-Create an account using your email or social login.
-Verify your email to activate the account.
-
-#### Installation
-No installation is required; simply log in and begin exploring the galaxy!
-
-#### First Steps
-Customize your avatar.
-Visit your first planet and gather resources.
-Join the community in multiplayer mode.
-Optional: Configure Settings
-Adjust game settings in the user dashboard to optimize your experience.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 <!-- ROADMAP -->
 ## Roadmap
 
 - [x] Build the project in React
-  - [x] Main-Components
-  - [ ] Notes
-  - [ ] Settings
-  - [ ] Support
+  - [x] Main-Page
+  - [ ] About-Page
+  - [ ] Dj-Page
+  - [ ] Kontakt
 - [ ] Add Backend
-     - [ ] Implement serverstructure
-     - [ ] Add registration and login
-     - [ ] Add playerdata
-     - [ ] Add gamedata
-     - [ ] Add chat
-     - [ ] Add datatransfer
-     - [ ] Update battlesystem
+     - [ ] ----
+     - [ ] ----
+     - [ ] ----
 - [ ] Deployment
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-### Top contributors:
-
-<a href="https://github.com/MrGummibear/Nebula-Odyssey/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=MrGummibear/Nebula-Odyssey" alt="contrib.rocks image" />
-</a>
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 ## License
